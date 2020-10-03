@@ -24,7 +24,7 @@ class Author
   end
   
   def add_post_by_title(title)
-    title = Post.new(ntitle)
+    title = Post.new(author)
     add_post(title)
   end
   
